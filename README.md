@@ -56,7 +56,9 @@ cargo build --release
 
 ## Authentication
 
-Set the following environment variable(s) before using the CLI:
+Use the `streak auth login --with-token` command to authenticate with your Streak API token.
+
+Alternatively, set the following environment variable(s) before using the CLI:
 
 ```bash
 export STREAK_TOKEN="<your token>"
